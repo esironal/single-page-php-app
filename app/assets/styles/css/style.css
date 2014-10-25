@@ -1,0 +1,16 @@
+ul.client-project-list {
+  padding-left: 10px;
+  list-style: none;
+}
+ul.clean-list {
+  padding-left: 10px;
+  list-style: none;
+}
+#admin-projects-table tbody label {
+  width: 100px;
+}
+ul.client-project-list li, ul.clean-list li {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
